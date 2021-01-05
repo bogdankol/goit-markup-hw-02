@@ -47,6 +47,8 @@ nav {
 }
 a {
   text-decoration: none;
+}
+.nav-site a {
   color: var(--main-text-color);
 }
 .nav-link:visited {
