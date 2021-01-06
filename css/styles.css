@@ -16,8 +16,8 @@ body {
   font-weight: 500;
   letter-spacing: 0.03em;
   background: var(--white-color);
-  padding: 0 auto;
-  margin: 0 auto;
+  padding: 0;
+  margin: 0;
 }
 ul {
   list-style: none;
