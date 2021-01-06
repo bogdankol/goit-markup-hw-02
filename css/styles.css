@@ -38,6 +38,10 @@ nav {
   font-size: 26px;
   line-height: 1.19;
 }
+.logo-link:hover,
+.logo-link:focus {
+  color: var(--color-hover_focus);
+}
 .logo {
   color: var(--color-hover_focus);
 }
@@ -137,14 +141,19 @@ footer a:focus {
 .address {
   font-style: normal;
 }
+/* портфолио */
+.portfolio-list a {
+}
 .portfolio-list h3 {
   font-weight: 700;
+  color: var(--main-text-color);
   letter-spacing: 0.06em;
   font-size: 18px;
   line-height: 2;
 }
 .portfolio-list p {
   font-weight: 400;
+  color: var(--other-text-color);
   font-size: 16px;
   line-height: 1.87;
 }
@@ -154,9 +163,18 @@ footer a:focus {
   line-height: 1.62;
   text-align: center;
 }
-.button-bc {
+.hero .button.button-bc,
+.portfolio-main .filter-button.button-bc {
+  background: var(--grey-ld-background);
+  color: var(--main-text-color);
+}
+.hero .button.button-bc:hover,
+.hero .button.button-bc:focus,
+.portfolio-main .filter-button.button-bc:hover,
+.portfolio-main .filter-button.button-bc:focus {
   background: var(--color-hover_focus);
   color: var(--white-color);
+  cursor: pointer;
 }
 .city-address {
   color: var(--white-color);
