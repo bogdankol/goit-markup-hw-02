@@ -75,6 +75,12 @@ a {
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
+  background: var(--color-hover_focus);
+  color: var(--white-color);
+}
+.hero .button.button-bc:hover,
+.hero .button.button-bc:focus {
+  cursor: pointer;
 }
 .features h3 {
   font-size: 14px;
@@ -163,13 +169,10 @@ footer a:focus {
   line-height: 1.62;
   text-align: center;
 }
-.hero .button.button-bc,
 .portfolio-main .filter-button.button-bc {
   background: var(--grey-ld-background);
   color: var(--main-text-color);
 }
-.hero .button.button-bc:hover,
-.hero .button.button-bc:focus,
 .portfolio-main .filter-button.button-bc:hover,
 .portfolio-main .filter-button.button-bc:focus {
   background: var(--color-hover_focus);
